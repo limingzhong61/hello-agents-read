@@ -163,3 +163,7 @@ cython_debug/
 
 # 忽略各种文件夹下codex AGENRS.md
 AGENTS.md
+
+# obsidian git 同步插件会同步该文件，且不同机器上的obsidian的用户使用记录不同
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
