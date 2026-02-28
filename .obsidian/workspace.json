@@ -212,6 +212,7 @@
   },
   "active": "985719e6f8ae2161",
   "lastOpenFiles": [
+    "读者群二维码.png",
     "docs/chapter6/第六章 框架开发实践.md",
     "docs/chapter6/Chapter6-Framework-Development-Practice.md",
     "docs/chapter7/第七章 构建你的Agent框架.md",
@@ -232,7 +233,6 @@
     "code/chapter4_副本",
     "docs/chapter3/Chapter3-Fundamentals-of-Large-Language-Models.md",
     "docs/chapter3/第三章 大语言模型基础.md",
-    "读者群二维码.png",
     "fix_bold_format.py",
     "docs/前言.md",
     "docs/index.html",
@@ -256,7 +256,6 @@
     "docs/chapter2/Chapter2-History-of-Agents.md",
     "docs/chapter16/第十六章 毕业设计.md",
     "docs/chapter16/Chapter16-Graduation-Project.md",
-    "docs/chapter15/第十五章 构建赛博小镇.md",
-    "docs/chapter15/Chapter15-Building-Cyber-Town.md"
+    "docs/chapter15/第十五章 构建赛博小镇.md"
   ]
 }

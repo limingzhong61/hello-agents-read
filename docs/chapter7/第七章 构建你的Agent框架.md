@@ -1,11 +1,3 @@
----
-tags:
-  - skip
----
-
-
-
-
 # 第七章 构建你的智能体框架
 
 在前面的章节中，我们讲解了智能体的基础知识，并体验了主流框架带来的开发便利。从本章开始，我们将进入一个更具挑战也更有价值的阶段：**从零开始，逐步构建一个智能体框架——HelloAgents**。
@@ -47,7 +39,7 @@ tags:
 
 构建一个新的Agent框架，关键不在于功能的多少，而在于设计理念是否能真正解决现有框架的痛点。HelloAgents框架的设计围绕着一个核心问题展开：如何让学习者既能快速上手，又能深入理解Agent的工作原理？
 
-当你初次接触任何成熟的框架时，可能会被其丰富的功能所吸引，但很快就会发现一个问题：要完成一个简单的任务，往往需要理解Chain、Agent、Tool、Memory、Retriever等十几个不同的概念。每个概念都有自己的抽象层，学习曲线变得异常陡峭。**这种复杂性虽然带来了强大的功能，但也成为了初学者的障碍**。HelloAgents框架试图在功能完整性和学习友好性之间找到平衡点，形成了四个核心的设计理念。
+当你初次接触任何成熟的框架时，可能会被其丰富的功能所吸引，但很快就会发现一个问题：要完成一个简单的任务，往往需要理解Chain、Agent、Tool、Memory、Retriever等十几个不同的概念。每个概念都有自己的抽象层，学习曲线变得异常陡峭。这种复杂性虽然带来了强大的功能，但也成为了初学者的障碍。HelloAgents框架试图在功能完整性和学习友好性之间找到平衡点，形成了四个核心的设计理念。
 
 （1）轻量级与教学友好的平衡
 
@@ -69,7 +61,7 @@ HelloAgents提供了一条清晰的学习路径。我们将会把每一章的学
 
 让我们先看看第七章的核心学习内容：
 
-```java
+```
 hello-agents/
 ├── hello_agents/
 │   │
@@ -267,8 +259,9 @@ response_stream = llm.think(messages)
 # 打印响应
 print("ModelScope Response:")
 for chunk in response_stream:
-    # chunk 已经是文本片段，可以直接使用
-    print(chunk, end="", flush=True)
+    # chunk在my_llm库中已经打印过一遍，这里只需要pass即可
+    # print(chunk, end="", flush=True)
+    pass
 ```
 
 通过以上步骤，我们就在不修改 `hello-agents` 库源码的前提下，成功为其扩展了新的功能。这种方法不仅保证了代码的整洁和可维护性，也使得未来升级 `hello-agents` 库时，我们的定制化功能不会丢失。
@@ -1290,12 +1283,13 @@ print(f"数学专用Agent结果: {math_result}")
 
 FunctionCallAgent是hello-agents在0.2.8之后引入的Agent，它基于OpenAI原生函数调用机制的Agent，展示了如何使用OpenAI的函数调用机制来构建Agent。
 它支持以下功能：
-_build_tool_schemas:通过工具的description构建OpenAI的function calling schema
-_extract_message_content:从OpenAI的响应中提取文本
-_parse_function_call_arguments:解析模型返回的JSON字符串参数
-_convert_parameter_types:转换参数类型
 
-这些功能可以使其具备原生的OpenAI Functioncall的能力，对比使用prompt约束的方式，具备更强的鲁棒性。
+- _build_tool_schemas:通过工具的description构建OpenAI的function calling schema
+- _extract_message_content:从OpenAI的响应中提取文本
+- _parse_function_call_arguments:解析模型返回的JSON字符串参数
+- _convert_parameter_types:转换参数类型
+
+这些功能可以使其具备原生的OpenAI Function Calling的能力，对比使用prompt约束的方式，具备更强的鲁棒性。
 ```python
 def _invoke_with_tools(self, messages: list[dict[str, Any]], tools: list[dict[str, Any]], tool_choice: Union[str, dict], **kwargs):
         """调用底层OpenAI客户端执行函数调用"""
