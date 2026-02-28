@@ -1,0 +1,262 @@
+{
+  "main": {
+    "id": "52c18a19646c07e2",
+    "type": "split",
+    "children": [
+      {
+        "id": "c7f676291ddb957d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "985719e6f8ae2161",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/chapter7/第七章 构建你的Agent框架.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "第七章 构建你的Agent框架"
+            }
+          },
+          {
+            "id": "aa628ca0f48d3fb9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/chapter8/第八章 记忆与检索.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "第八章 记忆与检索"
+            }
+          },
+          {
+            "id": "cef3cab05df38b14",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.12.4"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "16d1f55a02efaca7",
+    "type": "split",
+    "children": [
+      {
+        "id": "e0be5faf066ac574",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8490b615fc969fae",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "f87d09e3b130f088",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:reading",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "fd44c7a5a9e6e71f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "eee31659e9d7146a",
+    "type": "split",
+    "children": [
+      {
+        "id": "e794aa7e1e5d5e92",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d51aeb7854b5460a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/chapter3/第三章 大语言模型基础.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 第三章 大语言模型基础"
+            }
+          },
+          {
+            "id": "e6f79c090514ddde",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/chapter3/第三章 大语言模型基础.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 第三章 大语言模型基础"
+            }
+          },
+          {
+            "id": "86e6638397a316f3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "68a25ac5b0e4a273",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "9b632d5a72045049",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/chapter7/第七章 构建你的Agent框架.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "第七章 构建你的Agent框架 的大纲"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 275.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "985719e6f8ae2161",
+  "lastOpenFiles": [
+    "docs/chapter6/第六章 框架开发实践.md",
+    "docs/chapter6/Chapter6-Framework-Development-Practice.md",
+    "docs/chapter7/第七章 构建你的Agent框架.md",
+    "docs/chapter5/第五章 基于低代码平台的智能体搭建.md",
+    "docs/chapter8/第八章 记忆与检索.md",
+    "docs/chapter4/第四章 智能体经典范式构建.md",
+    "docs/chapter14/第十四章 自动化深度研究智能体.md",
+    "docs/chapter13/第十三章 智能旅行助手.md",
+    "docs/chapter12/第十二章 智能体性能评估.md",
+    "docs/chapter11/第十一章 Agentic-RL.md",
+    "docs/chapter10/第十章 智能体通信协议.md",
+    "docs/chapter9/第九章 上下文工程.md",
+    "code/chapter4_副本/llm_client.py",
+    "code/chapter4_副本/tools.py",
+    "code/chapter4_副本/Reflection.py",
+    "code/chapter4_副本/Plan_and_solve.py",
+    "code/chapter4_副本/ReAct.py",
+    "code/chapter4_副本",
+    "docs/chapter3/Chapter3-Fundamentals-of-Large-Language-Models.md",
+    "docs/chapter3/第三章 大语言模型基础.md",
+    "读者群二维码.png",
+    "fix_bold_format.py",
+    "docs/前言.md",
+    "docs/index.html",
+    "docs/images/star-history-20251117.png",
+    "docs/images/hello-agents.png",
+    "docs/images/datawhale.png",
+    "docs/images/9-figures/9-3.png",
+    "docs/images/9-figures/9-2.webp",
+    "docs/images/9-figures/9-1.webp",
+    "docs/images/9-figures",
+    "docs/images/8-figures/8-9.png",
+    "docs/images/8-figures/8-8.png",
+    "docs/images/8-figures/8-7.png",
+    "docs/images/8-figures",
+    "docs/chapter9/Chapter9-Context-Engineering.md",
+    "docs/chapter8/Chapter8-Memory-and-Retrieval.md",
+    "docs/chapter7/Chapter7-Building-Your-Agent-Framework.md",
+    "docs/chapter5/Chapter5-Building-Agents-with-Low-Code-Platforms.md",
+    "docs/chapter4/Chapter4-Building-Classic-Agent-Paradigms.md",
+    "docs/chapter2/第二章 智能体发展史.md",
+    "docs/chapter2/Chapter2-History-of-Agents.md",
+    "docs/chapter16/第十六章 毕业设计.md",
+    "docs/chapter16/Chapter16-Graduation-Project.md",
+    "docs/chapter15/第十五章 构建赛博小镇.md",
+    "docs/chapter15/Chapter15-Building-Cyber-Town.md"
+  ]
+}
