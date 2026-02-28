@@ -69,7 +69,7 @@ HelloAgents提供了一条清晰的学习路径。我们将会把每一章的学
 
 让我们先看看第七章的核心学习内容：
 
-```
+```java
 hello-agents/
 ├── hello_agents/
 │   │
