@@ -22,6 +22,18 @@
             }
           },
           {
+            "id": "e2259a260262f854",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.12.7"
+            }
+          },
+          {
             "id": "aa628ca0f48d3fb9",
             "type": "leaf",
             "state": {
@@ -47,7 +59,8 @@
               "title": "版本说明 1.12.4"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -182,13 +195,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/chapter7/第七章 构建你的Agent框架.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "第七章 构建你的Agent框架 的大纲"
+              "title": "大纲"
             }
           }
         ],
@@ -210,7 +222,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "985719e6f8ae2161",
+  "active": "e2259a260262f854",
   "lastOpenFiles": [
     "读者群二维码.png",
     "docs/chapter6/第六章 框架开发实践.md",
